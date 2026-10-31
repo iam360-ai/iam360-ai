@@ -15,13 +15,14 @@ iAM360 brings recovery, sleep, nutrition, workouts, and daily habits into one fi
 
 ## Connect your assistant
 
-Add this remote MCP endpoint in a compatible client:
+1. [Create your iAM360 account](https://app.iam360.ai), or sign in if you already have one.
+2. Add this remote MCP endpoint in a compatible assistant:
 
-```text
-https://app.iam360.ai/api/mcp
-```
+   ```text
+   https://app.iam360.ai/api/mcp
+   ```
 
-Sign in with your iAM360 account and review the OAuth consent screen to authorize access.
+3. Complete the browser OAuth sign-in, review the requested access, select **Allow**, and return to your assistant.
 
 [Setup guides and connector repository](https://github.com/iam360-ai/iam360-mcp-connector) · [Authentication guide](https://app.iam360.ai/docs/mcp/authentication)
 
